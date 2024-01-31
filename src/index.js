@@ -1,7 +1,7 @@
 // import _ from 'lodash';
 import './style.css';
 import myName from './myName';
-import Icon from './21593.jpg';
+import Icon from './icon.jpg';
 
 function component() {
     const element = document.createElement('div');
