@@ -1,12 +1,20 @@
+/*@font-face {*/
+/*    font-family: 'Inter';*/
+/*    src: url('./static') format('woff2'),*/
+/*    url('./static') format('woff');*/
+/*    font-weight: 600;*/
+/*    font-style: normal;*/
+/*}*/
 @font-face {
     font-family: 'MyFont';
-    src: url('./static') format('woff2'),
-    url('./static') format('woff');
+    src: url('./my-font.woff2') format('woff2'),
+    url('./my-font.woff') format('woff');
     font-weight: 600;
     font-style: normal;
 }
 
-
 .hello {
     color: red;
+    font-family: 'MyFont';
+    background: url('./21593.jpg');
 }
